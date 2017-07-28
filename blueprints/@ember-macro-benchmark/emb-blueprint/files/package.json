@@ -1,0 +1,22 @@
+{
+  "name": "<%= name %>",
+  "version": "0.0.0",
+  "description": "An Ember Macro Benchmark.",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "ember build -prod",
+    "start": "ember server",
+    "test": "ember test"
+  },
+  "devDependencies": {
+    "ember-cli": "*",
+    "ember-macro-benchmark": "krisselden/ember-macro-benchmark"
+  },
+  "engines": {
+    "node": ">= 4.0"
+  },
+  "private": true
+}
